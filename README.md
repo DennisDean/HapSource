@@ -1,6 +1,6 @@
 #HapSource
 
-HAP's motivating idea is to use a context free language description of pulsatile data to derive a data parser. A description of the implementation follows. More details regarding the underlying theory can be found in my thesis.
+HAP's motivating idea is to use a context free language description of pulsatile data to derive a data parser. The data parser implictly converts the times series to a graph. The graph representation motivates the analysis and is represented as a text string, which we define as a pulsicon. A description of the implementation follows. More details regarding the underlying theory can be found in my thesis.
 
 Dean II, DA, (2011) *Integrating Formal Language Theory with Mathematical Modeling to Solve Computational issues in Sleep and Circadian Applications*, Doctoral Dissertation, Intercampus Biomedical Engineering and Biotechnology Program, University of Massachusetts
 
