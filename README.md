@@ -36,3 +36,6 @@ In addition, the HAP Analysis Pipeline is designed to provide intermediate resul
 
 ###Requirements and Installation. 
 The program is provided as Microsoft Windows executable and is installed from an installation package. The program requires the MATLAB Compiler Runtime (MCR) which enables machines to execute MATLAB code without having MATALAB stored on the machine. The MCR is included in the installation package. The MCR does not need to be installed if MATALB and the MATLAB compiler are stored on the machine. The windows executable was generated with MATALB version 2013a.
+
+##Acknowledgements
+HAP uses the following publically available functions: [tilefigs](http://www.mathworks.com/matlabcentral/fileexchange/38581-tilefigs), [Latex Figure Output](http://www.mathworks.com/ matlabcentral/fileexchange/12607-figure-management-utilities) and the [scattermatrx](www.datatool.com) 
