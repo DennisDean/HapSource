@@ -2,7 +2,11 @@
 
 HAP's motivating idea is to use a context free language description of pulsatile data to derive a data parser. The data parser implictly converts the times series to a graph. The graph representation motivates the analysis and is represented as a text string, which we define as a pulsicon. A description of the implementation follows. More details regarding the underlying theory can be found in my thesis.
 
-Dean II, DA, (2011) *Integrating Formal Language Theory with Mathematical Modeling to Solve Computational issues in Sleep and Circadian Applications*, Doctoral Dissertation, Intercampus Biomedical Engineering and Biotechnology Program, University of Massachusetts
+Dean II, DA, (2011) [*Integrating Formal Language Theory with Mathematical Modeling to Solve Computational issues in Sleep and Circadian Applications*](http://dl.acm.org/citation.cfm?id=2231315), Doctoral Dissertation, Intercampus Biomedical Engineering and Biotechnology Program, University of Massachusetts
+
+More details regarding the implementation can be found in the supplementary materials of the following article.
+
+Dean II, DA, Adler, GK, Nguyen, DP, Klerman, EB, [Biological Time Series Analysis Using a Context Free Language: Applicability to Pulsatile Hormone Data](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0104087), PLoS One, 2014
 
 ##HAP_Analysis Program
 Overview. The HAP_Analysis Program is a tool developed to apply HAP analysis to a data set stored in a MATLAB structure. The graphical user interface includes sections for selecting data, for performing HAP analysis, and for application functions. The user can:
